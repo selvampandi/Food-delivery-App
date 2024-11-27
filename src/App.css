@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.logo {
+  width: 150px;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-items {
+  padding: 0px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-items > ul {
+  font-size: 24px;
+  display: flex;
+  list-style-type: none;
+  cursor: pointer;
 }
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.res-card {
+  padding: 5px;
+  width: 190px;
+  margin: 5px;
+ 
+}
+.res-card:hover {
+  cursor: pointer;
+  
+}
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  
+}
+.res-link {
+  text-decoration: none; 
+  color: inherit; 
+}
+.search {
+  padding: 10px;
+}
+.res-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.filter {
+  display: flex;
+}
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.cardShimmerEffect {
+  padding: 5px;
+  width: 190px;
+  margin: 5px;
+  height: 400px;
+  background: #f0f0f0;
+}
+.rating_logo{
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.1rem;
+} */
